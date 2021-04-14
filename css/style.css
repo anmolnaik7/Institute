@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+  }
+body{
+    background-color: aqua;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.top1{
+    background-color: blue;
+    margin: 0px;
+    padding: 0px;
+    top: 0%;
+    left: 0%;
+    display: flex;
+}
+.top1 ul{
+    list-style: none;
+    display: flex;
+}
+.top1 ul li{
+    padding-right: 2vw;
+    color: white;
+    font: 0.8em sans-serif;
+    border-right: 1px red;
+}
