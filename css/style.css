@@ -1,11 +1,6 @@
-*{
-    box-sizing: border-box;
-  }
 body{
-    background-color: aqua;
     padding: 0px;
     margin: 0px;
-    overflow: hidden;
 }
 .top1{
     background-color: blue;
@@ -19,9 +14,9 @@ body{
     list-style: none;
     display: flex;
 }
-.top1 ul li{
-    padding-right: 2vw;
+.top1nav li{
+    padding-left: 2vw;
+    padding-top: 0.8em;
     color: white;
-    font: 0.8em sans-serif;
-    border-right: 1px red;
+    font: 0.9em sans-serif;
 }
