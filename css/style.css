@@ -20,3 +20,11 @@ body{
     color: white;
     font: 0.9em sans-serif;
 }
+footer div{
+    display: inline;
+    float: left;
+    width: 30%;
+}
+.footer{
+    background-color: #2F3C7E;
+}
