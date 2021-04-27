@@ -1,13 +1,16 @@
+*{
+    box-sizing: border-box;
+  }
 body{
     padding: 0px;
     margin: 0px;
+    overflow: scroll;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .top1{
     background-color: blue;
     margin: 0px;
     padding: 0px;
-    top: 0%;
-    left: 0%;
     display: flex;
 }
 .top1 ul{
@@ -15,8 +18,8 @@ body{
     display: flex;
 }
 .top1nav li{
-    padding-left: 2vw;
-    padding-top: 0.8em;
+    
+    padding: 2vh 1vw 1vw 1vw;
     color: white;
     font: 0.9em sans-serif;
 }
@@ -24,7 +27,9 @@ footer div{
     display: inline;
     float: left;
     width: 30%;
+    padding-left: 3vw;
+    padding-top: 1vw;
 }
-.footer{
+footer .footer{
     background-color: #2F3C7E;
 }
