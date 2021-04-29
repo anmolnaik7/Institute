@@ -1,12 +1,13 @@
 *{
     box-sizing: border-box;
+
   }
 body{
-    background-color: #FBeAEB;
-    padding: 0px;
+    background: #FBeAEB;
     margin: 0px;
+    padding: 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+    overflow-x: hidden;
 }
 .top1{
     background-color: blue;
@@ -44,9 +45,16 @@ footer section{
     text-decoration: none;
     font-weight: 200;
 }
+.footer div li a:hover{
+    color: rgb(180, 164, 238);
+    text-decoration: none;
+    font-weight: 200;
+}
 .footer div li {
     list-style: square;
     padding-bottom: 5px;
     font-weight: 300;
 }
-
+.carousel{
+    height: 50%;
+}
