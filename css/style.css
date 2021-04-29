@@ -2,10 +2,11 @@
     box-sizing: border-box;
   }
 body{
+    background-color: #FBeAEB;
     padding: 0px;
     margin: 0px;
-    overflow: scroll;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 .top1{
     background-color: blue;
@@ -23,13 +24,29 @@ body{
     color: white;
     font: 0.9em sans-serif;
 }
-footer div{
-    display: inline;
-    float: left;
-    width: 30%;
+.footer{
+    background-color: #2F3C7E;
+}
+footer section{
+    color: white;
+    display: flex;
     padding-left: 3vw;
     padding-top: 1vw;
 }
-footer .footer{
-    background-color: #2F3C7E;
+.footer div{
+    float: left;
+    padding-left: 5vw;
+    width: 30%;
+    font-weight: 200;
 }
+.footer div li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 200;
+}
+.footer div li {
+    list-style: square;
+    padding-bottom: 5px;
+    font-weight: 300;
+}
+
