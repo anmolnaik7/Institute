@@ -12,7 +12,6 @@ body{
 .top1{
     background-color: blue;
     margin: 0px;
-    padding: 0px;
     display: flex;
 }
 .top1 ul{
@@ -21,7 +20,7 @@ body{
 }
 .top1nav li{
     
-    padding: 2vh 1vw 1vw 1vw;
+    padding: 10px;
     color: white;
     font: 0.9em sans-serif;
 }
@@ -64,4 +63,14 @@ footer section{
     background-color: rgb(0, 0, 0);
 
 
+}
+.ftrlogo{
+    width: 150px;
+    padding-bottom: 10px;
+}
+.carousel div div img{
+    opacity: 40%;
+}
+.carousel-caption p{
+    font-size: 200%;
 }
