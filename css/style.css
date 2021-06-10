@@ -17,6 +17,11 @@ nav {
 
 
 }
+nav .top2{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
 nav p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:rgb(0, 0, 0);
@@ -31,6 +36,7 @@ nav ul{
 nav ul li {
     float: left;
     list-style: none;
+    padding-left: 1vw;
 }
 nav ul li a{
     display: flex;
@@ -53,10 +59,7 @@ nav ul li ul{
     display: block;
     
 }
-nav ul li ul li a {
-    padding: 8px 14px;
 
-}
 nav ul li ul li {
     width: 180px;
     border-radius: 4px;
@@ -66,7 +69,7 @@ nav ul li ul li a:hover{
     background-color: #f3f3f3;
 }
 
-/* .top1{
+ .top1{
     background-color: blue;
     margin: 0px;
     display: flex;
@@ -80,7 +83,7 @@ nav ul li ul li a:hover{
     padding: 10px;
     color: white;
     font: 0.9em sans-serif;
-} */
+} 
 
 
 .footer{
@@ -143,17 +146,21 @@ footer section{
     align-items: center;
     padding: 2%;
 }
-/* 
-dropdown css
- */
+/* dropdown css */
 .dropitem{
     display: none;
-    position: absolute;
-    background-color: #2F3C7E;
+    position: fixed;
+    background-color: #ffffff;
     z-index: 9;
+    padding: 1vh;
+    margin-top: -10px ;
 }
-.headdrop1:hover .dropitem{
-    display: block;
 
-    
+.headdrop1:hover .dropitem, .headdrop2:hover .dropitem, .headdrop3:hover .dropitem{
+    display: block;
+    color: black;
+}
+
+nav li a:hover{
+    text-decoration: none;
 }
