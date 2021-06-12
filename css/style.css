@@ -84,6 +84,19 @@ nav ul li ul li a:hover{
     color: white;
     font: 0.9em sans-serif;
 } 
+.container h2 {
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    font-weight: bold;
+    font-style: italic;
+}
+.container h1 {
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
 
 
 .footer{
@@ -164,3 +177,4 @@ footer section{
 nav li a:hover{
     text-decoration: none;
 }
+
