@@ -96,6 +96,25 @@ nav ul li ul li a:hover{
     font-style: italic;
     font-weight: bold;
 }
+.info img{
+    width: 30vw;
+    padding: 1vw;
+    
+}
+.info{
+    display: flex;
+    border: 3px solid blue;
+    border-width: 2px;
+    margin: 1vw;
+
+    
+}
+.container{
+    width: 50vw;
+    float: left;
+    padding: 1vw;
+    
+}
 
 
 
