@@ -269,3 +269,9 @@ courses styling
 .coursescontainer p{
     margin: 3vw;
 }
+.coursescontainer hr{
+    height: 1px;
+    background-color: rgb(63, 61, 216);
+    border: none;
+    margin: 3vw;
+}
