@@ -298,17 +298,13 @@ courses styling
 
 .coursesinfo details table td, .coursesinfo details table th {
     border: 1px solid black;
-    padding: 1px;
     border-collapse: collapse;
-
-
-}
-
-.coursesinfo details table tr td {
     padding: 5px;
-    padding-right: 10px;
+    padding-right: 2vw;
+
 
 }
+
 .durationrow{
     background-color:#faf1f2;
 }
