@@ -6,6 +6,7 @@ body{
     background-color: #FBeAEB;
     margin: 0px;
     padding: 0px;
+    left: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     overflow-x: hidden;
 }
