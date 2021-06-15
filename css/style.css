@@ -185,11 +185,11 @@ footer section{
     position: fixed;
     background-color: #ffffff;
     z-index: 9;
-    padding: 1vh;
+
     margin-top: -10px ;
 }
 
-.headdrop1:hover .dropitem, .headdrop2:hover .dropitem, .headdrop3:hover .dropitem{
+.headdrop:hover .dropitem{
     display: block;
     color: black;
 }
