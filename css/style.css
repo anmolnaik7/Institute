@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 *{
     box-sizing: border-box;
 
@@ -14,361 +15,346 @@ body{
     left: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     overflow-x: hidden;
+=======
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #fbeaeb;
+  margin: 0px;
+  padding: 0px;
+  left: auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  overflow-x: hidden;
+>>>>>>> Stashed changes
 }
 
 nav {
-    width : 100%;
-    height: 60px;
-    background-color: #FBeAEB;
-
-
+  width: 100%;
+  height: 60px;
+  background-color: #fbeaeb;
 }
-nav .top2{
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
+nav .top2 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 nav p {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:rgb(0, 0, 0);
-    font-size: 24px;
-    line-height: 55px;
-    float: left;
-    padding: 0px 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  line-height: 55px;
+  float: left;
+  padding: 0px 20px;
 }
-nav ul{
-    float: left;
+nav ul {
+  float: left;
 }
 nav ul li {
-    float: left;
-    list-style: none;
-    padding-left: 1vw;
+  float: left;
+  list-style: none;
+  padding-left: 1vw;
 }
-nav ul li a{
-    display: flex;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: black;
-    font-size: 14px;
-    padding: 22px 14px;
-    text-decoration: none;
-
-     
+nav ul li a {
+  display: flex;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: black;
+  font-size: 14px;
+  padding: 22px 14px;
+  text-decoration: none;
 }
-nav ul li ul{
-    display: none;
-    position: absolute;
-    background-color: #fff;
-    padding: 10px;
-    border-radius: 0px 0px 4px 4px;
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 0px 0px 4px 4px;
 }
-nav ul li ul{
-    display: block;
-    
+nav ul li ul {
+  display: block;
 }
 
 nav ul li ul li {
-    width: 180px;
-    border-radius: 4px;
+  width: 180px;
+  border-radius: 4px;
+}
+nav ul li ul li a:hover {
+  background-color: #f3f3f3;
+}
 
+.top1 {
+  background-color: blue;
+  margin: 0px;
+  display: flex;
 }
-nav ul li ul li a:hover{
-    background-color: #f3f3f3;
+.top1 ul {
+  list-style: none;
+  display: flex;
 }
-
-.top1{
-    background-color: blue;
-    margin: 0px;
-    display: flex;
+.top1nav li {
+  padding: 10px;
+  color: white;
+  font: 0.9em sans-serif;
 }
-.top1 ul{
-    list-style: none;
-    display: flex;
-}
-.top1nav li{
-    
-    padding: 10px;
-    color: white;
-    font: 0.9em sans-serif;
-} 
 .container h2 {
-    color: rgb(0, 0, 0);
-    font-size: medium;
-    font-weight: bold;
-    font-style: italic;
+  color: rgb(0, 0, 0);
+  font-size: medium;
+  font-weight: bold;
+  font-style: italic;
 }
 .container h1 {
-    color: red;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: italic;
-    font-weight: bold;
+  color: red;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+  font-weight: bold;
 }
-.info img{
-    width: 30vw;
-    padding: 1vw;
-    
+.info img {
+  width: 30vw;
+  padding: 1vw;
 }
-.info{
-    display: flex;
-    border: 3px solid rgb(188, 177, 228);
-    border-width: 2px;
-    margin: 1vw;
-
-    
+.info {
+  display: flex;
+  border: 3px solid rgb(188, 177, 228);
+  border-width: 2px;
+  margin: 1vw;
 }
-.container{
-    width: 50vw;
-    float: left;
-    padding: 1vw;
-    
+.container {
+  width: 50vw;
+  float: left;
+  padding: 1vw;
 }
 
-
-
-.footer{
-    background-color: #2F3C7E;
+.footer {
+  background-color: #2f3c7e;
 }
-footer section{
-    color: white;
-    display: flex;
-    padding-left: 3vw;
-    padding-top: 1vw;
+footer section {
+  color: white;
+  display: flex;
+  padding-left: 3vw;
+  padding-top: 1vw;
 }
-.footer div{
-    float: left;
-    padding-left: 5vw;
-    width: 30%;
-    font-weight: 200;
+.footer div {
+  float: left;
+  padding-left: 5vw;
+  width: 30%;
+  font-weight: 200;
 }
-.footer div li a{
-    color: white;
-    text-decoration: none;
-    font-weight: 200;
+.footer div li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 200;
 }
-.footer div li a:hover{
-    color: rgb(180, 164, 238);
-    text-decoration: none;
-    font-weight: 200;
+.footer div li a:hover {
+  color: rgb(180, 164, 238);
+  text-decoration: none;
+  font-weight: 200;
 }
 .footer div li {
-    list-style: square;
-    padding-bottom: 5px;
-    font-weight: 300;
+  list-style: square;
+  padding-bottom: 5px;
+  font-weight: 300;
 }
-.carousel-item{
-    height: 80vh;
-    vertical-align: middle;
-    transition: 3s;
+.carousel-item {
+  height: 80vh;
+  vertical-align: middle;
+  transition: 3s;
 }
-.carousel-control-prev-icon, .carousel-control-next-icon{
-    background-color: rgb(0, 0, 0);
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgb(0, 0, 0);
+}
+.ftrlogo {
+  width: 150px;
+  padding-bottom: 10px;
+}
+.carousel div div img {
+  opacity: 40%;
+}
+.carousel-caption p {
+  font-size: 200%;
+}
+.homesec1 {
+  background-color: rgb(14, 14, 70);
+}
 
-
-}
-.ftrlogo{
-    width: 150px;
-    padding-bottom: 10px;
-}
-.carousel div div img{
-    opacity: 40%;
-}
-.carousel-caption p{
-    font-size: 200%;
-}
-.homesec1{
-    background-color: rgb(14, 14, 70);
-}
-
-.postgallery{
-    width: 32%;
-    display: inline-block;
-    align-items: center;
-    padding: 2%;
+.postgallery {
+  width: 32%;
+  display: inline-block;
+  padding: 2%;
 }
 /* dropdown css */
-.dropitem{
-    display: none;
-    position: fixed;
-    background-color: #ffffff;
-    z-index: 9;
-
-    margin-top: -10px ;
+.dropitem {
+  display: none;
+  position: fixed;
+  background-color: #ffffff;
+  z-index: 9;
+  margin-top: -10px;
 }
 
-.headdrop:hover .dropitem{
-    display: block;
-    color: black;
+.headdrop:hover .dropitem {
+  display: block;
+  color: black;
 }
 
-nav li a:hover{
-    text-decoration: none;
+nav li a:hover {
+  text-decoration: none;
 }
 
 /* header end */
-.postgallery{
-    width: 30vw;
-    background-color: #FBeAEB;
-    margin: 1vw;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-} 
+.postgallery {
+  width: 30vw;
+  background-color: #fbeaeb;
+  margin: 1vw;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
-.homesec3{
-    margin-bottom: 1vh;
+.homesec3 {
+  margin-bottom: 1vh;
 }
 /* cse page styling  */
 .depcontainer h2 {
-    color: rgb(0, 0, 0);
-    font-size: medium;
-    font-weight: bold;
-    font-style: italic;
+  color: rgb(0, 0, 0);
+  font-size: medium;
+  font-weight: bold;
+  font-style: italic;
 }
 
-.depinfo img{
-    width: 30vw;
-    left: 0;
-    margin: auto;
+.depinfo img {
+  width: 30vw;
+  left: 0;
+  margin: auto;
 }
-.depinfo{
-    border: 3px solid rgb(188, 177, 228);
-    border-width: 2px;
-    display: flex;
-    width: 95vw;
-    margin: 1vw;
-    
-    
+.depinfo {
+  border: 3px solid rgb(188, 177, 228);
+  border-width: 2px;
+  display: flex;
+  width: 95vw;
+  margin: 1vw;
 }
-.depcontainer{
-    width: 50vw;
-    padding: 1vw;
-    margin: auto;
-    
+.depcontainer {
+  width: 50vw;
+  padding: 1vw;
+  margin: auto;
 }
 /* 
 cse deparment professors 
  */
-.deppostgallery{
-    width: 22vw;
-    background-color: #FBeAEB;
-    margin: 1vw;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 1vw;
-    display:inline-block;
-} 
+.deppostgallery {
+  width: 22vw;
+  background-color: #fbeaeb;
+  margin: 1vw;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1vw;
+  display: inline-block;
+}
 
-.dephomesec3{
-    margin-bottom: 1vh;
+.dephomesec3 {
+  margin-bottom: 1vh;
 }
 /* 
 courses styling 
  */
-.coursesinfo img{
-    width: 50%;
+.coursesinfo img {
+  width: 50%;
 }
-.coursescontainer h2{
-    color: rgb(0, 0, 0);
-    font-size: medium;
-    font-weight: bold;
-    font-style: italic;
-    margin: 3vw;
+.coursescontainer h2 {
+  color: rgb(0, 0, 0);
+  font-size: medium;
+  font-weight: bold;
+  font-style: italic;
+  margin: 3vw;
 }
-.coursescontainer p{
-    margin-left: 3vw;
+.coursescontainer p {
+  margin-left: 3vw;
 }
-.coursescontainer hr{
-    height: 1px;
-    background-color: rgb(63, 61, 216);
-    border: none;
-    margin-left: 3vw;
-    width: 100%;
-    float: left;
+.coursescontainer hr {
+  height: 1px;
+  background-color: rgb(63, 61, 216);
+  border: none;
+  margin-left: 3vw;
+  width: 100%;
+  float: left;
 }
-.coursesinfo details{
-    margin-left: 3vw;
+.coursesinfo details {
+  margin-left: 3vw;
 }
-.coursesinfo details table{
-    background-color: #FBeAEB;
-    table-layout: inherit;
-    
+.coursesinfo details table {
+  background-color: #fbeaeb;
+  table-layout: inherit;
 }
-.coursesinfo details summary{
-    padding: 0.5em 1em;
-    width: 10vw;
-    border: 1px solid black;
-    border-radius: 2vw;
-    margin-bottom: 1vh;
-    background-color: #2F3C7E;
-    color: white;
-}
-
-.coursesinfo details table td, .coursesinfo details table th {
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 5px;
-    padding-right: 2vw;
-
-
+.coursesinfo details summary {
+  padding: 0.5em 1em;
+  width: 10vw;
+  border: 1px solid black;
+  border-radius: 2vw;
+  margin-bottom: 1vh;
+  background-color: #2f3c7e;
+  color: white;
 }
 
-.durationrow{
-    background-color:#faf1f2;
+.coursesinfo details table td,
+.coursesinfo details table th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  padding-right: 2vw;
+}
+
+.durationrow {
+  background-color: #faf1f2;
 }
 /* 
 partner section*/
-#partners-section{
-    height: 344px;
-    margin-top: 90px;
-    width: 100%;
-    color: rgb(8, 8, 8);
+#partners-section {
+  width: 100%;
+  color: white;
+  background-color: #2f3c7e;
 }
-#partners-section::before{
-    content: "";
-     position: absolute;
-     background: url('../img/bg2.jpg');
-     width: 100%;
-     height: 43%;
-     z-index: -1;
-     opacity: .9;
+#partners-section::before {
+  content: "";
+  position: absolute;
+
+  width: 100%;
 }
-#partners-section div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1vw;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: italic;
+#partners-section div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1vw;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
 }
 /* about university section */
-#university-section{
-    height: 344px;
-    margin-top: 90px;
-    width: 100%;
-    color: rgb(8, 8, 8);
+#university-section {
+  width: 100%;
+  color: rgb(8, 8, 8);
 }
-#university-section::before{
-    content: "";
-     position: absolute;
-     background: url('../img/bg2.jpg');
-     width: 100%;
-     height: 10%;
-     z-index: -1;
-     opacity: .9;
+#university-section::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  z-index: -1;
+  opacity: 0.9;
 }
-#university-section div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1vw;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: italic;
+#university-section div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1vw;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
 }
 .universitycontainer h2 {
-    color: rgb(0, 0, 0);
-    font-size: medium;
-    font-weight: bold;
-    font-style: italic;
+  color: rgb(0, 0, 0);
+  font-size: medium;
+  font-weight: bold;
+  font-style: italic;
 }
 
+<<<<<<< Updated upstream
 .universityinfo img{
     width: 30vw;
     left: 0;
@@ -450,3 +436,20 @@ partner section*/
 }
 
 
+=======
+.universityinfo img {
+  width: 30vw;
+  left: 0;
+  margin: auto;
+}
+.universityinfo {
+  display: flex;
+  width: 95vw;
+  margin: 1vw;
+}
+.universitycontainer {
+  width: 50vw;
+  padding: 1vw;
+  margin: auto;
+}
+>>>>>>> Stashed changes
