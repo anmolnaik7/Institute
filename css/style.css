@@ -436,6 +436,17 @@ partner section*/
     padding: 1vw;
     color: #100051;
 }
-
+/* placement */
+.placement img{
+    
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+   
+}
+.placement p{
+    margin: 40px;
+}
 
 
