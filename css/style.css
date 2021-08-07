@@ -2,6 +2,11 @@
     box-sizing: border-box;
 
   }
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 body{
     background-color: #FBeAEB;
     margin: 0px;
@@ -382,3 +387,55 @@ partner section*/
     margin: auto;
     
 }
+/* campus life section */
+#services{
+    background-color: #100051;
+    margin: 0px;
+    color: white;
+    text-align: center;
+}
+.services{
+    margin: auto;
+    width: fit-content;
+    display: flex;
+}
+.services .box{ 
+    border: 0.2vh solid rgb(255, 255, 255);
+    padding: 2vw;
+    margin: 2vh 1vw;
+    border-radius: 2vw;
+    width: 25vw;
+}
+
+#services img{
+    width: 10vw;
+}
+
+.servicehead{
+    display: flex ;
+    margin: auto;
+    width: fit-content;
+    align-items: center;
+    padding: 1vh 0vh 5vh 0vh;
+
+}
+
+.h-primary{
+    font-size: 2vw;
+    padding: 1vh;
+}
+
+.h-secondary{
+    padding: 3vh;
+}
+
+.box i{
+    font-size: 10vh;
+    background-color: beige;
+    border-radius: 50%;
+    padding: 1vw;
+    color: #100051;
+}
+
+
+
