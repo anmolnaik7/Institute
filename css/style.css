@@ -1,23 +1,7 @@
-<<<<<<< Updated upstream
-*{
-    box-sizing: border-box;
-
-  }
-  *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-body{
-    background-color: #FBeAEB;
-    margin: 0px;
-    padding: 0px;
-    left: auto;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    overflow-x: hidden;
-=======
 * {
   box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 body {
   background-color: #fbeaeb;
@@ -26,76 +10,83 @@ body {
   left: auto;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   overflow-x: hidden;
->>>>>>> Stashed changes
 }
 
-nav {
-  width: 100%;
-  height: 60px;
-  background-color: #fbeaeb;
-}
-nav .top2 {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-}
-nav p {
+header p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 24px;
-  line-height: 55px;
-  float: left;
-  padding: 0px 20px;
-}
-nav ul {
-  float: left;
-}
-nav ul li {
-  float: left;
-  list-style: none;
-  padding-left: 1vw;
-}
-nav ul li a {
-  display: flex;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: black;
-  font-size: 14px;
-  padding: 22px 14px;
-  text-decoration: none;
-}
-nav ul li ul {
-  display: none;
-  position: absolute;
-  background-color: #fff;
-  padding: 10px;
-  border-radius: 0px 0px 4px 4px;
-}
-nav ul li ul {
-  display: block;
 }
 
-nav ul li ul li {
-  width: 180px;
-  border-radius: 4px;
+header {
+  margin: 0px;
 }
-nav ul li ul li a:hover {
-  background-color: #f3f3f3;
+header ul {
+  list-style: none;
+  display: flex;
+  color: white;
+  margin-bottom: 0%;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+header ul li {
+  padding-right: 2vw;
 }
 
 .top1 {
   background-color: blue;
-  margin: 0px;
+  padding: 1vh 1vw;
+}
+
+.top2 {
+  background-color: #100051;
+  padding: 1vh 1vw;
   display: flex;
+  margin: auto;
+  align-items: center;
 }
-.top1 ul {
-  list-style: none;
-  display: flex;
+
+.dropitem {
+  display: none;
+  color: #100051;
+  background-color: aliceblue;
+  position: absolute;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  width: 10vw;
+  z-index: 1;
 }
-.top1nav li {
-  padding: 10px;
-  color: white;
-  font: 0.9em sans-serif;
+.headdrop {
+  position: relative;
+  display: inline-block;
 }
+
+.dropitem a {
+  color: #100051;
+  padding: 2vh 1vw;
+  display: block;
+}
+
+.dropitem a:hover {
+  background-color: aqua;
+  text-decoration: none;
+  color: #2f3c7e;
+  font-weight: bold;
+}
+.headdrop:hover .dropitem {
+  display: block;
+  text-decoration: none;
+  color: #100051;
+}
+
+header p {
+  text-transform: capitalize;
+  padding-right: 2vw;
+  margin-bottom: 0%;
+}
+/* header end */
 .container h2 {
   color: rgb(0, 0, 0);
   font-size: medium;
@@ -182,25 +173,7 @@ footer section {
   display: inline-block;
   padding: 2%;
 }
-/* dropdown css */
-.dropitem {
-  display: none;
-  position: fixed;
-  background-color: #ffffff;
-  z-index: 9;
-  margin-top: -10px;
-}
 
-.headdrop:hover .dropitem {
-  display: block;
-  color: black;
-}
-
-nav li a:hover {
-  text-decoration: none;
-}
-
-/* header end */
 .postgallery {
   width: 30vw;
   background-color: #fbeaeb;
@@ -354,89 +327,6 @@ partner section*/
   font-style: italic;
 }
 
-<<<<<<< Updated upstream
-.universityinfo img{
-    width: 30vw;
-    left: 0;
-    margin: auto;
-}
-.universityinfo{
-    display: flex;
-    width: 95vw;
-    margin: 1vw;
-    
-    
-}
-.universitycontainer{
-    width: 50vw;
-    padding: 1vw;
-    margin: auto;
-    
-}
-/* campus life section */
-#services{
-    background-color: #100051;
-    margin: 0px;
-    color: white;
-    text-align: center;
-}
-.services{
-    margin: auto;
-    width: fit-content;
-    display: flex;
-}
-.services .box{ 
-    border: 0.2vh solid rgb(255, 255, 255);
-    padding: 2vw;
-    margin: 2vh 1vw;
-    border-radius: 2vw;
-    width: 25vw;
-}
-
-#services img{
-    width: 10vw;
-}
-
-.servicehead{
-    display: flex ;
-    margin: auto;
-    width: fit-content;
-    align-items: center;
-    padding: 1vh 0vh 5vh 0vh;
-
-}
-
-.h-primary{
-    font-size: 2vw;
-    padding: 1vh;
-}
-
-.h-secondary{
-    padding: 3vh;
-}
-
-.box i{
-    font-size: 10vh;
-    background-color: beige;
-    border-radius: 50%;
-    padding: 1vw;
-    color: #100051;
-}
-/* placement */
-.placement img{
-    
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-   
-}
-.placement p{
-    margin: 40px;
-}
-
-
-=======
 .universityinfo img {
   width: 30vw;
   left: 0;
@@ -452,4 +342,61 @@ partner section*/
   padding: 1vw;
   margin: auto;
 }
->>>>>>> Stashed changes
+/* campus life section */
+#services {
+  background-color: #100051;
+  margin: 0px;
+  color: white;
+  text-align: center;
+}
+.services {
+  margin: auto;
+  width: fit-content;
+  display: flex;
+}
+.services .box {
+  border: 0.2vh solid rgb(255, 255, 255);
+  padding: 2vw;
+  margin: 2vh 1vw;
+  border-radius: 2vw;
+  width: 25vw;
+}
+
+#services img {
+  width: 10vw;
+}
+
+.servicehead {
+  display: flex;
+  margin: auto;
+  width: fit-content;
+  align-items: center;
+  padding: 1vh 0vh 5vh 0vh;
+}
+
+.h-primary {
+  font-size: 2vw;
+  padding: 1vh;
+}
+
+.h-secondary {
+  padding: 3vh;
+}
+
+.box i {
+  font-size: 10vh;
+  background-color: beige;
+  border-radius: 50%;
+  padding: 1vw;
+  color: #100051;
+}
+/* placement */
+.placement img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.placement p {
+  margin: 40px;
+}
