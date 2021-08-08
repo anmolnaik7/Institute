@@ -25,7 +25,7 @@ header ul {
   list-style: none;
   display: flex;
   color: white;
-  margin-bottom: 0%;
+  margin: 1vh;
 }
 
 header a {
@@ -48,6 +48,16 @@ header ul li {
   margin: auto;
   align-items: center;
 }
+.top2 ul li {
+  padding: 1vh 2vw;
+  border-radius: 1vh;
+}
+
+.top2 ul li a:hover,
+.top2 ul li:hover {
+  text-decoration: none;
+  color: white;
+}
 
 .dropitem {
   display: none;
@@ -57,6 +67,11 @@ header ul li {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   width: 10vw;
   z-index: 1;
+  padding: 0%;
+  margin-top: 1vh;
+  margin-left: -1vw;
+  border-top: 5px solid red;
+  border-radius: 1vh;
 }
 .headdrop {
   position: relative;
@@ -65,15 +80,12 @@ header ul li {
 
 .dropitem a {
   color: #100051;
-  padding: 2vh 1vw;
+  padding: 3vh 1.5vh;
   display: block;
 }
 
 .dropitem a:hover {
-  background-color: aqua;
-  text-decoration: none;
-  color: #2f3c7e;
-  font-weight: bold;
+  background-color: #2f3c7e;
 }
 .headdrop:hover .dropitem {
   display: block;
